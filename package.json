@@ -8,6 +8,6 @@
 		"uuid": "^11.0.5"
 	},
   "scripts": {
-    "start": "node start.js"
+    "start": "docker compose -f ./docker/docker-compose.yml up -d && node ./src/server.js"
   }
 }
