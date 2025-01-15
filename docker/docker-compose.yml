@@ -1,0 +1,9 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb-container
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/db:/data/db
+

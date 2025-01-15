@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.env
+# Data MongoDB
+src/data/db/
+
